@@ -19,6 +19,10 @@ public class DoubleArray {
 
     Scanner scanner = new Scanner(System.in);
 
+    public DoubleArray() {
+
+    }
+
     public void methodThatDiscardsFractionalPart() {
         System.out.println("Введите число");
         double numder = scanner.nextDouble();
